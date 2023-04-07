@@ -13,7 +13,7 @@ import {
   NextApiRequest,
   NextApiResponse
 } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import type { NextRequest, NextResponse } from 'next/server';
 
 // Types
 export type { Session, User, SupabaseClient } from '@supabase/supabase-js';
